@@ -464,6 +464,9 @@
 
 /*----------Inicio complementos-----------*/
 /* Caja de iconos */
+		div.caja:hover{ 
+			background: var(--colorSecundario);
+		}
 		div.caja{
 		width           : 100%;
 		border          : solid 2px var(--colorSecundario);
@@ -498,7 +501,7 @@
 
 	a.cenlace:hover{
 		text-decoration: none;
-		color          : var(--colorSecundario);
+		color          : var(--colorPrimario);
 	}
 /* Caja de iconos */
 /* modal */
